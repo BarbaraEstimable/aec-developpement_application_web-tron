@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jeu Tron - POO</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/tron.js" defer></script>
+</head>
+<body>
+    <canvas id="myCanvas" width="750" height="750"></canvas>
+    <div class="menu">
+        <div class="buttons">
+            <button onclick="startGame()">Start</button>
+            <button onclick="pauseGame()">Pause</button>
+            <button onclick="restartGame()">Restart</button>
+        </div>
+
+        <div class="audio">
+            <audio id="audio-file">
+                <source src="Endless Sunrise.mp3" type="audio/mpeg" loop>
+            </audio>
+
+            <button onclick="playMusic()">Play music</button>
+            <button onclick="stopMusic()">Stop music</button>
+        
+        <div class="colors">
+            <div>
+                <label for="color1">Player 1 Trace Color : </label>
+                <input onchange="changeColor1()" type="color" value="#fe0000" id="color1">
+            </div>
+            
+            <div>
+                <label for="color2">Player 2 Trace Color : </label>
+                <input onchange="changeColor2()"  type="color" value="#fe0000" id="color2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
