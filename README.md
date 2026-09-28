@@ -32,8 +32,16 @@ il faut se connecter ou s'inscrire sur la page de connexion.
 ## Installations
 
 ### 1- CLoner le dépôt de github
+
+git clone https://github.com/BarbaraEstimable/aec-developpement_application_web-tron.git
+
 ### 2- Ouvrir le dossier
+
+cd aec-developpement_application_web-tron
+
 ### 3- Lancer le projet
+
+Lancer connexion.html
 
 ---
 ## Comment jouer
