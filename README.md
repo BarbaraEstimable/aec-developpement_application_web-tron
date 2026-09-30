@@ -49,7 +49,7 @@ Lancer connexion.html
 ### Connexion
 
 Une page de connexion est affiché quand le jeu démarre, vous avez le choix de vous inscrire ou de vous connecter avec votre
-**identitifiant** et votre **mot de passe**. Après vérification réussit de l'identifiant et du mot de passe, vous pourrez accéder au jeu.
+**identitifiant** et votre **mot de passe**. Après vérification réussit de l'identifiant et du mot de passe, vous pourrez accéder au jeu automatiquement.
 
 ### Commandes
  Déplacement  | Joueur 1 | Joueur 2 |
@@ -63,7 +63,7 @@ Une page de connexion est affiché quand le jeu démarre, vous avez le choix de 
 ---
 ## Règles du jeu
 
-- Chaque joueur a une moto qui laisse des traces après son passage et qui avance en continu.
+- Chaque joueur a une moto qui laisse des traces après son passage et qui avance en continue.
 - Un joueur perd la partie s'il:
     - entre en contact directement avec l'autre joueur
     - touche la trace que son adversaire a laissé
